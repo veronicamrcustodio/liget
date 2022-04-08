@@ -1,0 +1,120 @@
+*{
+	padding: 0px;
+	margin: 0 auto;
+	list-style: none;
+	text-decoration: none;
+}
+body {
+	background-color: #ffffff;
+	background-image: linear-gradient(19deg, #ffffff 0%, #B721FF 33%, #001b9c 66%, #000000 100%);
+	margin: auto;
+	font-family: 'Arial', sans-serif;
+	text-align: center;
+	color:#fff;
+	font-size: x-large;
+}
+iframe {
+	-webkit-mask-image: linear-gradient(to bottom, transparent, white 50%);
+}
+:link {
+	color: #fff;
+}
+:visited {
+	color: #fff;
+}
+.voltar {
+  bottom: 14px;
+  cursor: pointer;
+  position: fixed;
+  right: 22px;
+  width: 40px;
+  z-index: 3;
+&::after {
+    display: flex;
+    justify-content: center;
+    padding-left: 1px;
+    padding-top: 10px;
+  }
+}
+.voltar img{
+	border-radius: 50%;
+}
+.footer {
+	padding:50px;
+	background: rgb(255,255,255);
+	background: linear-gradient(31deg, rgba(255,255,255,1) 0%, rgba(183,33,255,1) 0%, rgba(0,27,156,1) 65%, rgba(0,0,0,1) 100%);
+	font-size:18;
+	color: #f1f1f1;
+}
+.footer a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+.footer img{
+	padding-bottom: 50px;
+}
+.topo {
+	color: #fff;
+	padding: 12%;
+	text-align:center;
+}
+.topo img {
+	border-radius: 50%;
+	margin-bottom:5%;
+}
+.topo button {
+	margin-top:50px;
+	background-color:rgba(255, 255, 255, 0);
+	border-size: 3px;
+	border-radius: 100px;
+	border-color: #ffffff;
+	color: #fff;
+	height:50px;
+	padding: 13px;
+	font-size: 18;
+	cursor: hand;
+}
+.topo :link {
+	color: #fff;
+}
+.topo :visited {
+	color: #fff;
+}
+.topo button:hover {
+	background-color: #fff;
+	border-size: 3px;
+	border-radius: 100px;
+	color: blue;
+	height:50px;
+	padding: 13px;
+	font-size: 18;
+	transition: all 0.2s;
+}
+.topo button:hover :link {
+	color: blue;
+}
+.topo button:hover :visited {
+	color: blue;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	justify-content: center;
+	padding-top:50px;
+	padding-bottom:100px;
+	text-align: left;
+}
+.grid img {
+	margin: 3px 3px;
+
+}
+.grid :link {
+	color: #fff;
+	font-size: 20px;
+}
+.grid :visited {
+	color: #fff;
+	font-size: 20px;
+}
