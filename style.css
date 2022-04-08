@@ -100,7 +100,7 @@ iframe {
 .grid {
 	display: flex;
 	flex-wrap: wrap;
-	width: 70%;
+	width: 1000px;
 	justify-content: center;
 	padding-top:50px;
 	padding-bottom:100px;
